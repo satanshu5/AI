@@ -1,0 +1,20 @@
+public class PrimeNumberChecker {
+    public static Boolean isPrime(Integer number) {
+        if (number <= 1) {
+            return false;
+        }
+        
+        for (Integer i = 2; i <= Math.sqrt(number); i++) {
+            if (number % i == 0) {
+                return false;
+            }
+        }
+        
+        return true;
+    }
+}
+
+--------------------------------------------------------------------
+Integer num = 17;
+Boolean isNumPrime = PrimeNumberChecker.isPrime(num);
+System.debug('Is ' + num + ' a prime number? ' + isNumPrime);

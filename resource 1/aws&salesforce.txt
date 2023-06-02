@@ -1,0 +1,40 @@
+----------------------------aws---------------------------------------
+pirlogin
+search ec2
+select instances
+launch instance
+name it 
+select ubuntu (free tier)
+create new key value pair and name it same as instance
+2 ticks of http 
+launch instance
+After creating instance
+sudo su --> to change to root
+apt-get update
+apt-get install apache2
+systemctl start apache2
+systemctl status apache2
+Freecss .zip copy
+wget  paste link
+apt-get install unzip
+ls
+unzip anyfile.zip
+Ls
+mv * /var/www/html
+cd  /var/www/html
+ls
+cd anyfile-html
+Copy public ip and paste it in new tab
+--------------------------------------------------------------------------
+--------------------------salesforce--------------------------------------
+Login to trailhead
+Click on profile
+In dropdown click hands on orgs
+Click on settings logo
+Select developer console
+Click on file
+Click new and name the apex class
+Write down the code in apex programming language click debug
+Click on open execute....option
+Write "Prac.hello();"
+And execute
